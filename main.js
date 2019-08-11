@@ -1,7 +1,7 @@
 
 // Create two arrays
 var ARRAY_ONE = ['dog', 'cat', 'lizard', 'rabbit', 'giraffe'];
-var ARRAY_TWO = ['cat', 'lion', 'leopard', 'ocelot', ;'tiger'];
+var ARRAY_TWO = ['cat', 'lion', 'leopard', 'ocelot', 'tiger'];
 
 //  IfUniqueAddItemToArray
 //    Checks if an item is already in an array.  If not, add item to that array
@@ -24,7 +24,7 @@ function IfUniqueAddItemToArray(item, arrayToCheck) {
   // arrayToCheck is an array
   // push the item onto the end of the array using arrayToCheck.push(item)
   if (!foundItem) {
-      arrayToCheck.push_item_onto_array(item);
+      arrayToCheck.push(item);
   }
 }
 
@@ -41,7 +41,7 @@ function UnionTwoArrays(array1, array2) {
 }
 
 // Get the resuult union of both arrays
-var result = UnionTwoArrays(ARRA_ONE, ARRAY_TWO);
+var result = UnionTwoArrays(ARRAY_ONE, ARRAY_TWO);
 
 // LOG the result
 console.log(result);
